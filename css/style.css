@@ -1,0 +1,96 @@
+:root {
+    --cor-primaria-fontes: #595959;
+}
+
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+/* GERAL */
+
+/* BODY */
+body{
+    background:
+    linear-gradient(
+      rgba(0,0,0,.4),rgba(0,0,0,.4)
+    ),
+    url(/img/background.jpg) no-repeat;
+}
+/* BODY */
+
+/* HEADER */
+header img{
+    width: 9vw;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+/* HEADER */
+
+/* PÁGINA INICIAL */
+main .box{
+    background-color: rgba(0, 0, 0, .75);
+	width: 24vw;
+    margin: auto;
+}
+
+.box h2 {
+    height: 15vh;
+    color: white;
+    padding: 2rem 2.5rem 0 2.5rem;
+}
+
+main form {
+    padding: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 0.8rem;
+    height: 2.6vw;
+    color: var(--cor-primaria-fontes);
+    background-color: #333333;
+    border: none;
+    border-radius: 3px;
+    padding-left: 0.5rem;
+}
+
+input::-webkit-input-placeholder {
+    color: #807e7e;
+}
+
+.inpSubmit {
+    color: #fff;
+    background-color: #e50914;
+    margin-top: 1rem;
+}
+
+.inpSubmit:hover {
+    cursor: pointer;
+}
+
+.itens {
+    font-size: 10px;
+    color: var(--cor-primaria-fontes);
+    font-weight: 700;
+    padding: 0 2.5rem;
+    padding-bottom: 15vh;
+}
+    .itens input, .itens label {
+        float: left;
+    }
+    .itens input {
+        margin-top: -0.3vh;
+    }
+    .itens label {
+        padding-left: 0.5vw;
+    }   
+    .itens a {
+        float: right;
+        text-decoration: none;
+        font-weight: 700;
+        color: var(--cor-primaria-fontes);
+    }
